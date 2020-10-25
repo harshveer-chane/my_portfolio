@@ -1,0 +1,49 @@
+.contact-me {
+    display: flex;
+    padding: 20% 10%;
+    text-align: center;
+    h1 {
+        width: 300px;
+        font-size: 60px;
+        font-weight: 400;
+        color: $textPrimaryMain;
+        font-family: 'Quicksand', sans-serif;
+
+    }
+    form {  
+        display: inline-block;
+    }
+    input {
+        text-align: center;
+        color: $textPrimaryMain;
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        color: $textPrimaryMain;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .name {
+        width: 426px;
+        height: 74px;
+        border: none;
+        background: $mainColor;
+        border-radius: 78px;
+    }
+    .email {
+        width: 657px;
+        height: 74px;
+        background: $mainColor;
+        border-radius: 78px;
+        border: none;
+        }
+    .message {
+        width: 765px;
+        height: 278px;
+        background: $mainColor;
+        border-radius: 78px;
+        border: none;
+    }
+    
+}
+
+

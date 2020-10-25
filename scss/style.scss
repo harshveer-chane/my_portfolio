@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2,0,36);
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    .nav-bar {
+        cursor: pointer;
+        box-shadow: 0px 0px 0px 5px aqua;
+        background: white;
+        height: 5rem;
+        width: 100%;
+        text-align: center;
+        transition: box-shadow 1s ease;
+        li {
+            display: inline-block;
+            margin: 25px 40px;
+            font-size: 25px;
+            a {
+                text-decoration: none;
+                list-style: none;
+                color:aqua;
+                transition: color 0.5s ease;
+            }
+            a:hover {
+                color: #db14cb;
+            }
+        }
+    }
+    .nav-bar:hover {
+        box-shadow: 0px 0px 0px 5px #db14cb;
+    }
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10%;
+    margin: 15% 0px;
+    .about-me-text {
+        cursor: pointer;
+        border: 4px solid aqua;
+        background: white;
+        width: 28rem;
+        height: 10%;
+        margin: 10px;
+        font-size: 25px;
+        line-height: 50px;
+        border-radius: 20px;
+        color: black;
+        transition: border 1s ease;
+        .text {
+            padding: 10px 0px;
+            margin: 0px 30px;
+        }
+        .welcome {
+            color: #db14cb;
+            transition: color 1s ease;
+        }
+    }
+    .about-me-text:hover {
+        border: 4px solid #db14cb;
+        .welcome {
+            color: aqua;
+        }
+    }
+    .profile-holder {
+        margin-left: auto;
+        padding: 20px;
+        img {
+            min-width: 300px;
+            border: 5px solid aqua;
+            border-radius: 50%;
+            transition: border 1s ease;
+            cursor: pointer;
+            }
+        img:hover {
+            border: 5px solid #db14cb;
+            border-radius: 50%;
+        }
+        }
+}
+
+.skills {
+    display: flex;
+    padding: 0px 10%;
+    margin: 350px 0px;
+    justify-content: flex-start;
+    flex-direction: column;
+    .skills-text {
+        color: #db14cb;
+        font-size: 6rem;
+        margin-bottom: 50px;
+    }
+        .html-percent {
+            border: 2px solid aqua;
+            border-radius: 10px;
+            transition: border 1s ease;
+        }
+        .html {
+            cursor: pointer;
+            margin: 20px 0px;
+            color: white;
+            img {
+                width: 10%;
+                min-width: 100px;
+            }
+
+            h2 {
+                margin-left:45%;
+            }
+            hr {
+                margin: 20px 10px;
+                width: 45%;
+            }
+        }
+        .html:hover {
+            .html-percent {
+                border: 2px solid #db14cb;
+                border-radius: 10px;
+            }
+        }
+        .python {
+            cursor: pointer;
+            margin: 20px 0px;
+            color: white;
+            img {
+                width: 10%;
+                min-width: 100px;
+            }
+            h2 {
+                margin-left: 29%;
+            }
+            hr {
+                margin: 20px 10px;
+                width: 29%;
+            }
+        }
+        .python:hover {
+            .html-percent {
+                border: 2px solid #db14cb;
+                border-radius: 10px;
+            }
+        }
+        .kotlin {
+            cursor: pointer;
+            margin: 20px 0px;
+            color: white;
+            img {
+                width: 10%;
+                min-width: 100px;
+            }
+            h2 {
+                margin-left: 22%;
+            }
+            hr {
+                margin: 20px 10px;
+                width: 22%;
+            }
+        }
+        .kotlin:hover {
+            .html-percent {
+                border: 2px solid #db14cb;
+                border-radius: 10px;
+            }
+        }
+    }
+.my-work {
+    padding: 0px 10%;
+     .work {
+        font-size: 6rem;
+        color: #db14cb;
+        position: relative;
+        text-align: center;
+        margin: 70px 10px;
+        }
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 5rem;
+        .box {
+            margin: auto;
+            cursor: pointer;
+            img {
+                opacity: 1;
+                transition: opacity 1s ease;
+            }
+            h1 {
+                position: absolute;
+                font-size: 2rem;
+                color:  white;
+                display: none;
+                transition: display 2s ease;
+            }
+            .line {
+                border: 2px solid aqua;
+                border-radius: 10px;
+                margin: 30px 30px;
+                transition: border 1s ease;
+            }
+            .one {
+                margin: 95px 75px;
+            }
+            .two {
+                margin: 95px 28px;
+            }
+            .three {
+                margin: 95px 65px;
+            }
+            .four {
+                margin: 95px 45px;
+            }
+            .five {
+                margin: 95px 45px;
+            }
+            .six {
+                margin: 95px 45px;
+            }
+        }
+        .box:hover {
+            .line {
+                border: 2px solid #db14cb;
+                border-radius: 10px;
+                margin: 30px 30px;
+            }
+            img {
+                opacity: 0.2;
+            }
+            h1 {
+                display: block;
+            }
+        }
+    }
+
+.contact-me {
+    display: flex;
+    margin: 30%;
+    justify-content: center;
+    .form-holder {
+        background: white;
+        height: 40rem;
+        width: 35rem;
+        border-radius: 50px;
+        margin: auto;
+        border: 4px solid #db14cb;
+        transition: border 1s ease;
+        cursor: pointer;
+    }
+    .form-holder:hover {
+        border: 4px solid aqua; 
+    }
+    .main-form {
+        margin: 40px 10px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 6rem;
+        color: #db14cb;
+        position: absolute;
+        text-align: center;
+        margin: -180px 0 0 0 ;
+        width: 600px;
+    }
+    .name {
+        position: relative;
+        font-size: 30px;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 25px;
+        border: none;
+        padding: 10px;
+        background-color: #ffffff;
+        border: 3px solid aqua;
+        top: 20px;
+        transition: border 1s ease;
+        text-align: center;
+        outline: none;
+    }
+    .name:hover {
+        border: 3px solid #db14cb; 
+    }
+    .email {
+        position: relative;
+        font-size: 30px;
+        width: 20rem;
+        height: 4rem;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        background-color: #ffffff;
+        top: 50px;
+        border: 3px solid aqua;
+        transition: border 1s ease;
+        text-align: center;
+        outline: none;
+    }
+    .email:hover {
+        border: 3px solid #db14cb; 
+    }
+    .message {
+        position: relative;
+        font-size: 30px;
+        width: 30rem;
+        height: 15rem;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        bottom: -90px;
+        background-color: #ffffff;
+        border: 3px solid aqua;
+        transition: border 1s ease;
+        text-align: center;
+        outline: none;
+        resize: none;
+    }
+    .message:hover {
+        border: 3px solid #db14cb; 
+    }
+    .button {
+        position: relative;
+        font-size: 30px;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        background: #ffffff;
+        border: 3px solid aqua;
+        cursor: pointer;
+        color: black;
+        transition: border 1s ease;
+        transition: background 0.5s ease;
+        outline: none;
+        top: 120px;
+    }
+    .button:hover {
+        background: #db14cb;
+        border: 3px solid #db14cb;
+        color: white;
+    }
+}
+
+footer {
+    display: flex;
+    .footer-holder {
+        cursor: pointer;
+        box-shadow: 0px 0px 0px 5px aqua;
+        background: #ffffff;
+        height: 60px;
+        width: 600px;
+        padding: 10px;
+        transition: box-shadow 1s ease;
+        h1 {
+            padding: 10px 50px;
+            font-size: 20px;
+            display: inline-block;
+        }
+    }
+    .footer-holder:hover {
+        box-shadow: 0px 0px 0px 5px #db14cb;
+    }
+}
+
+textarea::-webkit-scrollbar {
+    cursor: pointer;
+    width: 0.5rem;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: white;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: black;
+}

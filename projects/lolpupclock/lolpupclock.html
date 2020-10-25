@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOLPUP CLOCK</title>
+    <link rel="stylesheet" type="text/css" href="styleoldpup.css">
+    <link rel="icon" href="https://lolpupclock.imfast.io/header/doggy.png">
+</head>
+<body>
+    <div class="main_clock"  >
+        <h1 id="title">LOLPUP CLOCK</h1>
+        <h4 id="title_clock">I CAN HAZ TIME?</h4>
+        <h4>
+            <span id="localClock"></span>
+        </h4>
+    </div>
+    <div class="gifs">
+        <img id="main_image" src="" alt="">
+        <blockquote id="event_message"></blockquote>
+    </div>
+    <div class="alarm">
+
+    </div>
+    <div class="partyTime">
+        <button onclick="setPartyTime()" type="text">PARTY TIME!!</button>
+    </div>
+    <div id="color_picker">
+        <div class="white"></div>
+        <div class="one color" onclick="colorSwitcher(1)"></div>
+        <div class="two color" onclick="colorSwitcher(2)"></div>
+        <div class="three color" onclick="colorSwitcher(3)"></div>
+        <div class="four color" onclick="colorSwitcher(4)"></div>
+        <div class="five color" onclick="colorSwitcher(5)"></div>
+        <div class="six color" onclick="colorSwitcher(6)"></div>
+        <h2 class="text_header">Pick a color for the background!!</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

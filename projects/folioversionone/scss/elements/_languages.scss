@@ -1,0 +1,80 @@
+.languages {
+    display: flex;
+    padding: 400px 10%;
+    justify-content: space-between;
+    .title {
+        font-weight: 400;
+        font-size: 70px;
+        color: $textPrimaryMain;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .icons-holder {
+    width: 22rem;
+    height: 396px;
+    background: $mainColor;
+    border-radius: 78px;
+    }
+    .python {
+        margin: 10px;
+        text-align: center;
+        img {
+            position: relative;
+            width: 50%;
+            top: 50px;
+            margin: auto;
+        }
+        h1 {
+            position: relative;
+            top: 80px;
+            font-size: 35px;
+            color: $textPrimaryMain;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+            padding: 0px 30px;
+            display: inline-block;
+        }
+    }
+    .html {
+        position: relative;
+        margin: 10px;
+        text-align: center;
+        img {
+            position: relative;
+            width: 50%;
+            top: 50px;
+            margin: auto;
+        }
+        h1 {
+            position: relative;
+            top: 70px;
+            font-size: 35px;
+            color: $textPrimaryMain;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+            padding: 0px 30px;
+            display: inline-block;
+        }
+    }
+    .kotlin {
+        position: relative;
+        text-align: center;
+        margin: 10px;
+        img {
+            position: relative;
+            width: 50%;
+            top: 50px;
+            margin: auto;
+        }
+        h1 {
+            position: relative;
+            top: 90px;
+            font-size: 35px;
+            color: $textPrimaryMain;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+            padding: 0px 30px;
+            display: inline-block;
+        }
+    }
+}
+

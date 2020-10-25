@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    .footer-holder {
+        position: relative;
+        width: 1114px;
+        height: 74px;
+        background: $mainColor;
+        border-radius: 78px;
+        .made {
+            font-size: 20px;
+            font-weight: 400;
+            color: $textPrimaryMain;
+            font-family: 'Quicksand', sans-serif;
+            padding: 23px 30px;
+        }
+        .icon-holder {
+            position: absolute;
+            top: 0px;
+            margin: 0;
+            left: 400px;
+        }
+        img {
+            position: relative;
+            padding: 3px 10px;
+        }
+        .name {
+            font-size: 20px;
+            font-weight: 400;
+            color: $textPrimaryMain;
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            top: -50px;
+            right: -540px;
+        }
+    }
+
+}
+

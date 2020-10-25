@@ -1,0 +1,48 @@
+.about-me {
+    display: flex;
+    padding: 170px 10%;
+    .profile-holder {
+        width: 24rem;
+        height: 24rem;
+        border-radius: 50%;
+        background: $mainColor;
+    }
+    .profile {
+        padding: 36px 34px;
+    }
+    .aboutme-holder {
+        margin-left: auto;
+        width: 38.5rem;
+        height: 24rem;
+        background: $mainColor;
+        border-radius: 122px;
+    }
+    .welcome  {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 400;
+        color: $textPrimaryMain;
+        font-family: 'Quicksand', sans-serif;
+        padding: 20px 10px;
+    }
+    .text-holder {
+        text-align: center;
+    }
+    .text {
+        font-size: 20px;
+        color: $textPrimaryMain;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .one {
+        text-align: center;
+        @include mainTextPadding;
+    }
+    .two {
+        text-align: center;
+        @include mainTextPadding;
+    }
+    .three {
+        text-align: center;
+        @include mainTextPadding;
+    }
+}

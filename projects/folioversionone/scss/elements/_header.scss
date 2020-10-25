@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px 10%;
+    a {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        color: $textPrimaryMain;
+        text-decoration: none;
+    }
+    .logo {
+        width: 5rem;
+        cursor: pointer;
+        padding: 16px;
+    }
+    .logo-holder {
+        margin-right: auto;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        background: $mainColor;
+        margin-top: -17px;
+    }
+    .nav-bar li {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        padding: 29px 20px;
+    }
+    .nav-bar li a {
+        transition: all 0.3s ease 0s;
+    }
+    .nav-bar li a:hover {
+        color: $textHighlight;
+    }
+    .nav-link-holder {
+        width: 22rem;
+        height: 5rem;
+        background: $mainColor;
+        border-radius: 31px;
+    }
+}

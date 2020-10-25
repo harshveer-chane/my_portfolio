@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body.on {
+    background-image: url(https://lolpupclock.imfast.io/assets/party.gif);
+    background-repeat: no-repeat;
+    background-size: 250vh 300vw;
+} 
+
+.main_clock {
+    text-align: center;
+}
+.gifs {
+    text-align: center;
+}
+
+.partyTime {
+    text-align: center;
+}
+#title {
+    color: rgb(0, 0, 0);
+    font-family: 'Bungee Shade', cursive;
+    font-size: 5vh;
+    line-height: 90px;
+    padding: 0px 0px;
+}
+
+#title.on {
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee Shade', cursive;
+    font-size: 5vh;
+    line-height: 90px;
+    padding: 0px 0px;
+}
+
+
+#localClock {
+    font-size: 4vh;
+    font-family: 'Bungee', cursive;
+    color: rgb(0, 0, 0);
+    line-height: 0px;
+}
+
+#localClock.on {
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    font-size: 4vh;
+    font-family: 'Bungee', cursive;
+}
+
+#title_clock {
+    font-size: 2.4vh;
+    font-family: 'Bungee', cursive;
+    color: rgb(0, 0, 0);
+    line-height: 0px;
+    padding: 0px 0px;
+}
+
+#title_clock.on {
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    padding: 0px 0px;
+    font-size: 2.4vh;
+    font-family: 'Bungee', cursive;
+}
+ img {
+     width: 45vh;
+     height: 50vh; 
+     border-radius: 10px;
+     box-shadow: 2px 2px rgb(0, 0, 0);
+ }
+
+ blockquote {
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 7vh;
+    text-shadow: 2px 3px black;
+    margin: -80px 0px 100px 0px;
+ }
+
+ blockquote:before {content: '"'}
+ blockquote:after {content: '"';}
+
+button {
+    height: 10vh;
+    width: 25vh;
+    border-radius: 15px;
+    font-size: 3vh;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bungee', cursive;
+    box-shadow: 1px 1px;
+    cursor: pointer;
+}
+
+.one {
+    background-color: #E27D60;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 90px;
+} 
+
+.two {
+    background-color: #659DBD;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 220px;
+} 
+
+.three {
+    background-color: #E8A87C;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 350px;
+} 
+
+.four {
+    background-color: #C38D9E;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 480px;
+} 
+
+.five {
+    background-color: #99738E;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 610px;
+} 
+
+.six {
+    background-color: #8EE4AF;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    top: 740px;
+} 
+
+
+.text_header {
+    position: absolute;
+    font-size: 2.4vh;
+    font-family: 'Bungee', cursive;
+    top: 430px;
+    left: -140px;
+    transform: rotate(-90deg);
+    letter-spacing: 0.5vh;
+}
+
+.white {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+}
+
